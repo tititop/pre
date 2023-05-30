@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\code\MicrosoftExcel\main.cpp" />
+    <ClCompile Include="..\..\code\MicrosoftExcel\OpenXLSX\sources\XLCell.cpp">
+      <Filter>OpenXLSX\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\MicrosoftExcel\OpenXLSX\sources\XLCellIterator.cpp">
+      <Filter>OpenXLSX\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\MicrosoftExcel\OpenXLSX\sources\XLCellRange.cpp">
+      <Filter>OpenXLSX\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\MicrosoftExcel\OpenXLSX\sources\XLCellReference.cpp">
+      <Filter>OpenXLSX\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\MicrosoftExcel\OpenXLSX\sources\XLCellValue.cpp">
+      <Filter>OpenXLSX\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\MicrosoftExcel\OpenXLSX\sources\XLColor.cpp">
+      <Filter>OpenXLSX\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\MicrosoftExcel\OpenXLSX\sources\XLColumn.cpp">
+      <Filter>OpenXLSX\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\MicrosoftExcel\OpenXLSX\sources\XLContentTypes.cpp">
+      <Filter>OpenXLSX\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\MicrosoftExcel\OpenXLSX\sources\XLDateTime.cpp">
+      <Filter>OpenXLSX\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\MicrosoftExcel\OpenXLSX\sources\XLDocument.cpp">
+      <Filter>OpenXLSX\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\MicrosoftExcel\OpenXLSX\sources\XLFormula.cpp">
+      <Filter>OpenXLSX\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\MicrosoftExcel\OpenXLSX\sources\XLProperties.cpp">
+      <Filter>OpenXLSX\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\MicrosoftExcel\OpenXLSX\sources\XLRelationships.cpp">
+      <Filter>OpenXLSX\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\MicrosoftExcel\OpenXLSX\sources\XLRow.cpp">
+      <Filter>OpenXLSX\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\MicrosoftExcel\OpenXLSX\sources\XLRowData.cpp">
+      <Filter>OpenXLSX\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\MicrosoftExcel\OpenXLSX\sources\XLSharedStrings.cpp">
+      <Filter>OpenXLSX\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\MicrosoftExcel\OpenXLSX\sources\XLSheet.cpp">
+      <Filter>OpenXLSX\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\MicrosoftExcel\OpenXLSX\sources\XLWorkbook.cpp">
+      <Filter>OpenXLSX\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\MicrosoftExcel\OpenXLSX\sources\XLXmlData.cpp">
+      <Filter>OpenXLSX\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\MicrosoftExcel\OpenXLSX\sources\XLXmlFile.cpp">
+      <Filter>OpenXLSX\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\MicrosoftExcel\OpenXLSX\sources\XLZipArchive.cpp">
+      <Filter>OpenXLSX\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\MicrosoftExcel\OpenXLSX\external\pugixml\pugixml.cpp">
+      <Filter>OpenXLSX\external\pugixml</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="OpenXLSX">
+      <UniqueIdentifier>{c386cc75-93e3-456b-92f4-f85e33c725b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenXLSX\external">
+      <UniqueIdentifier>{3087af42-15cf-4386-8a2a-9895d84621af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenXLSX\headers">
+      <UniqueIdentifier>{e9375aa8-99fe-46e9-9d87-5d1d2bf80d4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenXLSX\sources">
+      <UniqueIdentifier>{880eaa31-b4ec-40ad-a42e-e57b00592112}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenXLSX\sources\utilities">
+      <UniqueIdentifier>{c83d7298-4466-43a0-bb5c-3591ebf96046}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenXLSX\external\nowide">
+      <UniqueIdentifier>{4884e528-d34a-47e1-b4b8-92f4f509d365}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenXLSX\external\nowide\nowide">
+      <UniqueIdentifier>{7b8b9302-64b5-43e4-ab57-5f2d105c8c0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenXLSX\external\pugixml">
+      <UniqueIdentifier>{d18defda-f3f1-4990-acd1-d25ef90b5fff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenXLSX\external\zippy">
+      <UniqueIdentifier>{fc4d6341-4b88-4290-82ea-4312c380f7a8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\code\MicrosoftExcel\OpenXLSX\OpenXLSX.hpp">
+      <Filter>OpenXLSX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\MicrosoftExcel\OpenXLSX\headers\IZipArchive.hpp">
+      <Filter>OpenXLSX\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\MicrosoftExcel\OpenXLSX\headers\XLCell.hpp">
+      <Filter>OpenXLSX\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\MicrosoftExcel\OpenXLSX\headers\XLCellIterator.hpp">
+      <Filter>OpenXLSX\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\MicrosoftExcel\OpenXLSX\headers\XLCellRange.hpp">
+      <Filter>OpenXLSX\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\MicrosoftExcel\OpenXLSX\headers\XLCellReference.hpp">
+      <Filter>OpenXLSX\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\MicrosoftExcel\OpenXLSX\headers\XLCellValue.hpp">
+      <Filter>OpenXLSX\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\MicrosoftExcel\OpenXLSX\headers\XLColor.hpp">
+      <Filter>OpenXLSX\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\MicrosoftExcel\OpenXLSX\headers\XLColumn.hpp">
+      <Filter>OpenXLSX\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\MicrosoftExcel\OpenXLSX\headers\XLCommandQuery.hpp">
+      <Filter>OpenXLSX\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\MicrosoftExcel\OpenXLSX\headers\XLConstants.hpp">
+      <Filter>OpenXLSX\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\MicrosoftExcel\OpenXLSX\headers\XLContentTypes.hpp">
+      <Filter>OpenXLSX\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\MicrosoftExcel\OpenXLSX\headers\XLDateTime.hpp">
+      <Filter>OpenXLSX\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\MicrosoftExcel\OpenXLSX\headers\XLDocument.hpp">
+      <Filter>OpenXLSX\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\MicrosoftExcel\OpenXLSX\headers\XLException.hpp">
+      <Filter>OpenXLSX\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\MicrosoftExcel\OpenXLSX\headers\XLFormula.hpp">
+      <Filter>OpenXLSX\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\MicrosoftExcel\OpenXLSX\headers\XLIterator.hpp">
+      <Filter>OpenXLSX\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\MicrosoftExcel\OpenXLSX\headers\XLProperties.hpp">
+      <Filter>OpenXLSX\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\MicrosoftExcel\OpenXLSX\headers\XLRelationships.hpp">
+      <Filter>OpenXLSX\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\MicrosoftExcel\OpenXLSX\headers\XLRow.hpp">
+      <Filter>OpenXLSX\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\MicrosoftExcel\OpenXLSX\headers\XLRowData.hpp">
+      <Filter>OpenXLSX\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\MicrosoftExcel\OpenXLSX\headers\XLSharedStrings.hpp">
+      <Filter>OpenXLSX\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\MicrosoftExcel\OpenXLSX\headers\XLSheet.hpp">
+      <Filter>OpenXLSX\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\MicrosoftExcel\OpenXLSX\headers\XLWorkbook.hpp">
+      <Filter>OpenXLSX\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\MicrosoftExcel\OpenXLSX\headers\XLXmlData.hpp">
+      <Filter>OpenXLSX\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\MicrosoftExcel\OpenXLSX\headers\XLXmlFile.hpp">
+      <Filter>OpenXLSX\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\MicrosoftExcel\OpenXLSX\headers\XLXmlParser.hpp">
+      <Filter>OpenXLSX\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\MicrosoftExcel\OpenXLSX\headers\XLZipArchive.hpp">
+      <Filter>OpenXLSX\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\MicrosoftExcel\OpenXLSX\sources\utilities\XLUtilities.hpp">
+      <Filter>OpenXLSX\sources\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\MicrosoftExcel\OpenXLSX\external\nowide\nowide\args.hpp">
+      <Filter>OpenXLSX\external\nowide\nowide</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\MicrosoftExcel\OpenXLSX\external\nowide\nowide\cenv.hpp">
+      <Filter>OpenXLSX\external\nowide\nowide</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\MicrosoftExcel\OpenXLSX\external\nowide\nowide\config.hpp">
+      <Filter>OpenXLSX\external\nowide\nowide</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\MicrosoftExcel\OpenXLSX\external\nowide\nowide\convert.hpp">
+      <Filter>OpenXLSX\external\nowide\nowide</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\MicrosoftExcel\OpenXLSX\external\nowide\nowide\cstdio.hpp">
+      <Filter>OpenXLSX\external\nowide\nowide</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\MicrosoftExcel\OpenXLSX\external\nowide\nowide\cstdlib.hpp">
+      <Filter>OpenXLSX\external\nowide\nowide</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\MicrosoftExcel\OpenXLSX\external\nowide\nowide\encoding_errors.hpp">
+      <Filter>OpenXLSX\external\nowide\nowide</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\MicrosoftExcel\OpenXLSX\external\nowide\nowide\encoding_utf.hpp">
+      <Filter>OpenXLSX\external\nowide\nowide</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\MicrosoftExcel\OpenXLSX\external\nowide\nowide\filebuf.hpp">
+      <Filter>OpenXLSX\external\nowide\nowide</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\MicrosoftExcel\OpenXLSX\external\nowide\nowide\fstream.hpp">
+      <Filter>OpenXLSX\external\nowide\nowide</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\MicrosoftExcel\OpenXLSX\external\nowide\nowide\iostream.hpp">
+      <Filter>OpenXLSX\external\nowide\nowide</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\MicrosoftExcel\OpenXLSX\external\nowide\nowide\scoped_ptr.hpp">
+      <Filter>OpenXLSX\external\nowide\nowide</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\MicrosoftExcel\OpenXLSX\external\nowide\nowide\stackstring.hpp">
+      <Filter>OpenXLSX\external\nowide\nowide</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\MicrosoftExcel\OpenXLSX\external\nowide\nowide\system.hpp">
+      <Filter>OpenXLSX\external\nowide\nowide</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\MicrosoftExcel\OpenXLSX\external\nowide\nowide\utf.hpp">
+      <Filter>OpenXLSX\external\nowide\nowide</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\MicrosoftExcel\OpenXLSX\external\nowide\nowide\utf8_codecvt.hpp">
+      <Filter>OpenXLSX\external\nowide\nowide</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\MicrosoftExcel\OpenXLSX\external\nowide\nowide\windows.hpp">
+      <Filter>OpenXLSX\external\nowide\nowide</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\MicrosoftExcel\OpenXLSX\external\pugixml\pugiconfig.hpp">
+      <Filter>OpenXLSX\external\pugixml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\MicrosoftExcel\OpenXLSX\external\pugixml\pugixml.hpp">
+      <Filter>OpenXLSX\external\pugixml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\MicrosoftExcel\OpenXLSX\external\zippy\zippy.hpp">
+      <Filter>OpenXLSX\external\zippy</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

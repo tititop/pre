@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="glog">
+      <UniqueIdentifier>{f0de1c61-bf6d-4d1d-b6fd-fc7746ff1afa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="struct2x">
+      <UniqueIdentifier>{d79c03c6-d0df-472f-87d1-c3b48d0d3c10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="json">
+      <UniqueIdentifier>{572ffded-c047-47dd-90f1-542fe586710b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="struct2x\json">
+      <UniqueIdentifier>{1d99713e-fbfd-4577-ac43-4a4935afc986}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\third\struct2x\include\JSONWriter.h">
+      <Filter>struct2x\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third\struct2x\include\JSONReader.h">
+      <Filter>struct2x\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third\glog\include\log_severity.h">
+      <Filter>glog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third\glog\include\logging.h">
+      <Filter>glog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third\glog\include\mtxlogger.h">
+      <Filter>glog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third\glog\include\mxtylog.h">
+      <Filter>glog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third\glog\include\raw_logging.h">
+      <Filter>glog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third\glog\include\stl_logging.h">
+      <Filter>glog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third\glog\include\vlog_is_on.h">
+      <Filter>glog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third\struct2x\include\struct2x.h">
+      <Filter>struct2x</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third\json\include\assertions.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third\json\include\autolink.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third\json\include\config.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third\json\include\features.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third\json\include\forwards.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third\json\include\json.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third\json\include\reader.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third\json\include\value.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third\json\include\version.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third\json\include\writer.h">
+      <Filter>json</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

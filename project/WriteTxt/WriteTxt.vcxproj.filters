@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\code\template\main.cpp" />
+    <ClCompile Include="..\..\code\WriteTxt\WriteTxt.cpp">
+      <Filter>WriteTxt</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="WriteTxt">
+      <UniqueIdentifier>{d220ada0-d977-4289-b994-bb6af3ad4078}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="out">
+      <UniqueIdentifier>{e6bd7298-4d05-4411-803b-0185c45bad3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="out\adapt">
+      <UniqueIdentifier>{9266a83c-5037-4b74-a6fd-b34aa5e1d327}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\code\WriteTxt\WriteTxt.h">
+      <Filter>WriteTxt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\WriteTxt\Structs.h">
+      <Filter>WriteTxt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\WriteTxt\adapt\adapt.h">
+      <Filter>out\adapt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\WriteTxt\adapt\adapt_glog.h">
+      <Filter>out\adapt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\WriteTxt\adapt\adapt_struct2x.h">
+      <Filter>out\adapt</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

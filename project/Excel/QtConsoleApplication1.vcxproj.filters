@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\code\Excel\main.cpp" />
+    <ClCompile Include="..\..\code\Excel\Excel\Excel .cpp">
+      <Filter>QT</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="QT">
+      <UniqueIdentifier>{45525cb7-0e91-4cfc-9dca-2348c1dc54f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenXLSX">
+      <UniqueIdentifier>{5c2f1c74-f1c1-46ef-9327-60284851629b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="..\..\code\Excel\Excel\Excel.h">
+      <Filter>QT</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\code\Excel\OpenXLSX\Excel.h">
+      <Filter>OpenXLSX</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

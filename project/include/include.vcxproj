@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\code\include\adapt.h" />
+    <ClInclude Include="..\..\code\include\adapt_glog.h" />
+    <ClInclude Include="..\..\code\include\adapt_struct2x.h" />
+    <ClInclude Include="..\..\code\include\Compiler\CodeGeneration.h" />
+    <ClInclude Include="..\..\code\include\Compiler\CodeOptimization.h" />
+    <ClInclude Include="..\..\code\include\Compiler\Compiler.h" />
+    <ClInclude Include="..\..\code\include\Compiler\CompilerProcess.h" />
+    <ClInclude Include="..\..\code\include\Compiler\GrammarAnalysis.h" />
+    <ClInclude Include="..\..\code\include\Compiler\IntermediateCodeGeneration.h" />
+    <ClInclude Include="..\..\code\include\Compiler\LexicalAnalysis.h" />
+    <ClInclude Include="..\..\code\include\Compiler\SemanticAnalysis.h" />
+    <ClInclude Include="..\..\code\include\Compiler\Structures.h" />
+    <ClInclude Include="..\..\code\include\File.h" />
+    <ClInclude Include="..\..\code\include\nowide\args.hpp" />
+    <ClInclude Include="..\..\code\include\nowide\cenv.hpp" />
+    <ClInclude Include="..\..\code\include\nowide\config.hpp" />
+    <ClInclude Include="..\..\code\include\nowide\convert.hpp" />
+    <ClInclude Include="..\..\code\include\nowide\cstdio.hpp" />
+    <ClInclude Include="..\..\code\include\nowide\cstdlib.hpp" />
+    <ClInclude Include="..\..\code\include\nowide\encoding_errors.hpp" />
+    <ClInclude Include="..\..\code\include\nowide\encoding_utf.hpp" />
+    <ClInclude Include="..\..\code\include\nowide\filebuf.hpp" />
+    <ClInclude Include="..\..\code\include\nowide\fstream.hpp" />
+    <ClInclude Include="..\..\code\include\nowide\iostream.hpp" />
+    <ClInclude Include="..\..\code\include\nowide\scoped_ptr.hpp" />
+    <ClInclude Include="..\..\code\include\nowide\stackstring.hpp" />
+    <ClInclude Include="..\..\code\include\nowide\system.hpp" />
+    <ClInclude Include="..\..\code\include\nowide\utf.hpp" />
+    <ClInclude Include="..\..\code\include\nowide\utf8_codecvt.hpp" />
+    <ClInclude Include="..\..\code\include\nowide\windows.hpp" />
+    <ClInclude Include="..\..\code\include\OpenXLSX\headers\IZipArchive.hpp" />
+    <ClInclude Include="..\..\code\include\OpenXLSX\headers\OpenXLSX-Exports.hpp" />
+    <ClInclude Include="..\..\code\include\OpenXLSX\headers\XLCell.hpp" />
+    <ClInclude Include="..\..\code\include\OpenXLSX\headers\XLCellIterator.hpp" />
+    <ClInclude Include="..\..\code\include\OpenXLSX\headers\XLCellRange.hpp" />
+    <ClInclude Include="..\..\code\include\OpenXLSX\headers\XLCellReference.hpp" />
+    <ClInclude Include="..\..\code\include\OpenXLSX\headers\XLCellValue.hpp" />
+    <ClInclude Include="..\..\code\include\OpenXLSX\headers\XLColor.hpp" />
+    <ClInclude Include="..\..\code\include\OpenXLSX\headers\XLColumn.hpp" />
+    <ClInclude Include="..\..\code\include\OpenXLSX\headers\XLCommandQuery.hpp" />
+    <ClInclude Include="..\..\code\include\OpenXLSX\headers\XLConstants.hpp" />
+    <ClInclude Include="..\..\code\include\OpenXLSX\headers\XLContentTypes.hpp" />
+    <ClInclude Include="..\..\code\include\OpenXLSX\headers\XLDateTime.hpp" />
+    <ClInclude Include="..\..\code\include\OpenXLSX\headers\XLDocument.hpp" />
+    <ClInclude Include="..\..\code\include\OpenXLSX\headers\XLException.hpp" />
+    <ClInclude Include="..\..\code\include\OpenXLSX\headers\XLFormula.hpp" />
+    <ClInclude Include="..\..\code\include\OpenXLSX\headers\XLIterator.hpp" />
+    <ClInclude Include="..\..\code\include\OpenXLSX\headers\XLProperties.hpp" />
+    <ClInclude Include="..\..\code\include\OpenXLSX\headers\XLRelationships.hpp" />
+    <ClInclude Include="..\..\code\include\OpenXLSX\headers\XLRow.hpp" />
+    <ClInclude Include="..\..\code\include\OpenXLSX\headers\XLRowData.hpp" />
+    <ClInclude Include="..\..\code\include\OpenXLSX\headers\XLSharedStrings.hpp" />
+    <ClInclude Include="..\..\code\include\OpenXLSX\headers\XLSheet.hpp" />
+    <ClInclude Include="..\..\code\include\OpenXLSX\headers\XLWorkbook.hpp" />
+    <ClInclude Include="..\..\code\include\OpenXLSX\headers\XLXmlData.hpp" />
+    <ClInclude Include="..\..\code\include\OpenXLSX\headers\XLXmlFile.hpp" />
+    <ClInclude Include="..\..\code\include\OpenXLSX\headers\XLXmlParser.hpp" />
+    <ClInclude Include="..\..\code\include\OpenXLSX\headers\XLZipArchive.hpp" />
+    <ClInclude Include="..\..\code\include\OpenXLSX\OpenXLSX.hpp" />
+    <ClInclude Include="..\..\code\include\Socket.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{AFC1B5B3-EF47-497E-BCCE-770D923A0E5C}</ProjectGuid>
+    <RootNamespace>pre</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)..\output\bin\$(ProjectName)</OutDir>
+    <IntDir>$(SolutionDir)..\output\obj\$(ProjectName)</IntDir>
+    <IncludePath>$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)..\output\bin\$(ProjectName)</OutDir>
+    <IntDir>$(SolutionDir)..\output\obj\$(ProjectName)</IntDir>
+    <IncludePath>$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)..\output\bin\$(ProjectName)</OutDir>
+    <IntDir>$(SolutionDir)..\output\obj\$(ProjectName)</IntDir>
+    <IncludePath>$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)..\output\bin\$(ProjectName)</OutDir>
+    <IntDir>$(SolutionDir)..\output\obj\$(ProjectName)</IntDir>
+    <IncludePath>$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>false</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\code;$(SolutionDir)..\code\include;$(SolutionDir)..\code\$(ProjectName);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>false</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\code;$(SolutionDir)..\code\include;$(SolutionDir)..\code\$(ProjectName);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>false</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\code;$(SolutionDir)..\code\include;$(SolutionDir)..\code\$(ProjectName);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>false</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\code;$(SolutionDir)..\code\include;$(SolutionDir)..\code\$(ProjectName);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

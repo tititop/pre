@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\code\Compiler\main.cpp" />
+    <ClCompile Include="..\..\code\Compiler\LexicalAnalysis\LexicalAnalysis.cpp">
+      <Filter>1.LexicalAnalysis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\Compiler\GrammarAnalysis\GrammarAnalysis.cpp">
+      <Filter>2.GrammarAnalysis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\Compiler\SemanticAnalysis\SemanticAnalysis.cpp">
+      <Filter>3.SemanticAnalysis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\Compiler\IntermediateCodeGeneration\IntermediateCodeGeneration.cpp">
+      <Filter>4.IntermediateCodeGeneration</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\Compiler\CodeOptimization\CodeOptimization.cpp">
+      <Filter>5.CodeOptimization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\Compiler\CodeGeneration\CodeGeneration.cpp">
+      <Filter>6.CodeGeneration</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\Compiler\Compiler.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="1.LexicalAnalysis">
+      <UniqueIdentifier>{491795c3-4986-497b-b5a4-d2716ac7a8f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2.GrammarAnalysis">
+      <UniqueIdentifier>{4e96e5b9-dadd-4e78-bcaa-7bd0fe03f84a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3.SemanticAnalysis">
+      <UniqueIdentifier>{e4bf1739-b7ac-4b8d-aceb-84f6662a6c28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4.IntermediateCodeGeneration">
+      <UniqueIdentifier>{4163d3fe-0781-4377-9b0e-1a191df1bc1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="5.CodeOptimization">
+      <UniqueIdentifier>{a97a798e-ce70-4b29-be59-bb33916db101}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="6.CodeGeneration">
+      <UniqueIdentifier>{a44cebec-da97-4a53-86d4-76f13e367653}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="7.SymbolTableManagement">
+      <UniqueIdentifier>{06471d21-d756-4e85-895f-63c941ba4e66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="8.CreateSubPass">
+      <UniqueIdentifier>{7187e6c5-6419-49ce-b079-39796e0aca49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="9.CompilerBuildTool">
+      <UniqueIdentifier>{ef137fa7-e666-4566-bf7b-bd8258a4279a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="9.CompilerBuildTool\1.LexicalAnalysisGenerator">
+      <UniqueIdentifier>{e61b5f3f-3ea1-472e-904c-33fa45ae4ffb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="9.CompilerBuildTool\2.ScannerGenerator">
+      <UniqueIdentifier>{07e58382-86a4-4c9c-b6bf-83771bad66be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="9.CompilerBuildTool\3.GrammarGuidedTranslationEngine">
+      <UniqueIdentifier>{0d5886e6-e449-4d38-9311-11f3189a5221}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="9.CompilerBuildTool\4.CodeGeneratorForGenerators">
+      <UniqueIdentifier>{ad918c33-2650-46b6-a42f-77db1c96b33a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="9.CompilerBuildTool\5.DataFlowAnalysisEngine">
+      <UniqueIdentifier>{21c82749-11f8-4e4c-bc1c-a96433b07d5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="9.CompilerBuildTool\6.CompilerConstructionToolset">
+      <UniqueIdentifier>{9b29c822-d901-4520-b5d9-88c476eca796}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

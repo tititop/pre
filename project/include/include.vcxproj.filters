@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Net">
+      <UniqueIdentifier>{957c2b9e-2c0e-4223-b854-4eba8a81b365}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Compiler">
+      <UniqueIdentifier>{292d239e-7aa8-4bbe-8be0-f785beb6a73d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="adapt">
+      <UniqueIdentifier>{dc1dd224-9a79-4bd6-aed9-ece07f19c72d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Compiler\base">
+      <UniqueIdentifier>{63dd8f6f-8de8-458a-b0da-10c8d557d969}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Compiler\obj">
+      <UniqueIdentifier>{a5713b2b-7bed-4fb9-bc0a-bc0b869d9770}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenXLSX">
+      <UniqueIdentifier>{f992f435-b01b-4758-9028-39f771744ed0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenXLSX\details">
+      <UniqueIdentifier>{66704384-5c45-4842-92f3-a16a568d9dbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nowide">
+      <UniqueIdentifier>{502962c2-7583-4a03-af34-3ef1492eb937}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\code\include\Socket.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\include\Compiler\Compiler.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\include\adapt.h">
+      <Filter>adapt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\include\adapt_glog.h">
+      <Filter>adapt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\include\adapt_struct2x.h">
+      <Filter>adapt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\include\Compiler\Structures.h">
+      <Filter>Compiler\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\include\Compiler\CompilerProcess.h">
+      <Filter>Compiler\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\include\Compiler\GrammarAnalysis.h">
+      <Filter>Compiler\obj</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\include\Compiler\LexicalAnalysis.h">
+      <Filter>Compiler\obj</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\include\Compiler\SemanticAnalysis.h">
+      <Filter>Compiler\obj</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\include\Compiler\IntermediateCodeGeneration.h">
+      <Filter>Compiler\obj</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\include\Compiler\CodeOptimization.h">
+      <Filter>Compiler\obj</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\include\Compiler\CodeGeneration.h">
+      <Filter>Compiler\obj</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\include\File.h" />
+    <ClInclude Include="..\..\code\include\OpenXLSX\OpenXLSX.hpp">
+      <Filter>OpenXLSX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\include\OpenXLSX\headers\OpenXLSX-Exports.hpp">
+      <Filter>OpenXLSX\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\include\OpenXLSX\headers\XLCell.hpp">
+      <Filter>OpenXLSX\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\include\OpenXLSX\headers\XLCellIterator.hpp">
+      <Filter>OpenXLSX\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\include\OpenXLSX\headers\XLCellRange.hpp">
+      <Filter>OpenXLSX\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\include\OpenXLSX\headers\XLCellReference.hpp">
+      <Filter>OpenXLSX\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\include\OpenXLSX\headers\XLCellValue.hpp">
+      <Filter>OpenXLSX\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\include\OpenXLSX\headers\XLColor.hpp">
+      <Filter>OpenXLSX\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\include\OpenXLSX\headers\XLColumn.hpp">
+      <Filter>OpenXLSX\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\include\OpenXLSX\headers\XLCommandQuery.hpp">
+      <Filter>OpenXLSX\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\include\OpenXLSX\headers\XLConstants.hpp">
+      <Filter>OpenXLSX\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\include\OpenXLSX\headers\XLContentTypes.hpp">
+      <Filter>OpenXLSX\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\include\OpenXLSX\headers\XLDateTime.hpp">
+      <Filter>OpenXLSX\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\include\OpenXLSX\headers\XLDocument.hpp">
+      <Filter>OpenXLSX\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\include\OpenXLSX\headers\XLException.hpp">
+      <Filter>OpenXLSX\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\include\OpenXLSX\headers\XLFormula.hpp">
+      <Filter>OpenXLSX\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\include\OpenXLSX\headers\XLIterator.hpp">
+      <Filter>OpenXLSX\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\include\OpenXLSX\headers\XLProperties.hpp">
+      <Filter>OpenXLSX\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\include\OpenXLSX\headers\XLRelationships.hpp">
+      <Filter>OpenXLSX\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\include\OpenXLSX\headers\XLRow.hpp">
+      <Filter>OpenXLSX\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\include\OpenXLSX\headers\XLRowData.hpp">
+      <Filter>OpenXLSX\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\include\OpenXLSX\headers\XLSharedStrings.hpp">
+      <Filter>OpenXLSX\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\include\OpenXLSX\headers\XLSheet.hpp">
+      <Filter>OpenXLSX\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\include\OpenXLSX\headers\XLWorkbook.hpp">
+      <Filter>OpenXLSX\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\include\OpenXLSX\headers\XLXmlData.hpp">
+      <Filter>OpenXLSX\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\include\OpenXLSX\headers\XLXmlFile.hpp">
+      <Filter>OpenXLSX\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\include\OpenXLSX\headers\XLXmlParser.hpp">
+      <Filter>OpenXLSX\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\include\OpenXLSX\headers\XLZipArchive.hpp">
+      <Filter>OpenXLSX\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\include\OpenXLSX\headers\IZipArchive.hpp">
+      <Filter>OpenXLSX\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\include\nowide\args.hpp">
+      <Filter>nowide</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\include\nowide\cenv.hpp">
+      <Filter>nowide</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\include\nowide\config.hpp">
+      <Filter>nowide</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\include\nowide\convert.hpp">
+      <Filter>nowide</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\include\nowide\cstdio.hpp">
+      <Filter>nowide</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\include\nowide\cstdlib.hpp">
+      <Filter>nowide</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\include\nowide\encoding_errors.hpp">
+      <Filter>nowide</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\include\nowide\encoding_utf.hpp">
+      <Filter>nowide</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\include\nowide\filebuf.hpp">
+      <Filter>nowide</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\include\nowide\fstream.hpp">
+      <Filter>nowide</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\include\nowide\iostream.hpp">
+      <Filter>nowide</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\include\nowide\scoped_ptr.hpp">
+      <Filter>nowide</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\include\nowide\stackstring.hpp">
+      <Filter>nowide</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\include\nowide\system.hpp">
+      <Filter>nowide</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\include\nowide\utf.hpp">
+      <Filter>nowide</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\include\nowide\utf8_codecvt.hpp">
+      <Filter>nowide</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\include\nowide\windows.hpp">
+      <Filter>nowide</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
